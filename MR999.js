@@ -1,5 +1,11 @@
-let fire_image = document.getElementById("fire");
+let fireButton = document.getElementById("fire_button");
+let body = document.body;
 
-document.getElementById("fire").onclick = function() {
-    fire_image.style.position = "static";
+
+fireButton.onclick = function() {
+    body.style.backgroundColor = "black";
+    body.style.backgroundImage = "url('fire.gif')";
+    body.style.imageRepeat = "no-repeat";
+    body.style.backgroundSize = "cover";
+    fireButton.style.all = "unset";
 }
