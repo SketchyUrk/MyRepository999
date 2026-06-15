@@ -1,8 +1,5 @@
 body{
     background-color:black;
-    background-image: url("fire.png");
-    background-repeat:repeat-x;
-    background-position:0px 650px;
     color:#651102;
 }
 
@@ -20,4 +17,9 @@ body{
 
 .overline{
     text-decoration:overline;
+}
+
+#fire{
+    position:fixed;
+    top: 650px;
 }
