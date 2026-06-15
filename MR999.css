@@ -1,3 +1,10 @@
+body{
+    background-color:black;
+    background-image: url("fire.png");
+    background-repeat:repeat-x;
+    background-position:0px 650px;
+    color:#651102;
+}
 
 #alrdd{
     font-size: 70px;
