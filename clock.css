@@ -81,7 +81,7 @@
 .dots::before {
   content: '';
   position: absolute;
-  top: -3px;
+  bottom: 3px;
   width: 15px;
   height: 15px;
   background: var(--color);
